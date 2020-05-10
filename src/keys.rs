@@ -135,6 +135,8 @@ keys! {
     Launchmediaselect=> 0xb5
     Launchapp1=> 0xb6
     Launchapp2=> 0xb7
+    U => 0x55
+    X => 0x58
 }
 
 auto_array! {

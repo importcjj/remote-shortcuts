@@ -1,6 +1,8 @@
 # remote-shortcuts
 通过手机使用快捷键操作Windows程序
 
+
+
 # 使用说明
 
 1. 手机和电脑处于同一局域网
@@ -12,6 +14,7 @@
 
 1. 该版本还很简单，目前是我用于躺在床上控制爱奇艺客户端
 2. 被控制的客户端需要处于激活状态
+3. 如果cmd无法正常显示二维码的话，需要将字体改成`MS Gothic`
 
 # Windows virtual key codes
 
@@ -21,3 +24,4 @@ https://docs.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes
 
 https://github.com/asweigart/pyautogui/blob/master/pyautogui/_pyautogui_win.py
 
+![演示图片](./demo.png)

@@ -67,7 +67,7 @@ fn main() -> io::Result<()> {
 
     let page_addr = format!("http://{}:{}/index.html", ip, port);
     let serve_addr = format!("0.0.0.0:{}", port);
-    qr2term::print_qr(page_addr).unwrap();
+    utils::print_qr(&page_addr);
 
     let server = server::new_server();
     smol::block_on(async { server.listen(&serve_addr).await })?;

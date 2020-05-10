@@ -46,7 +46,7 @@ pub fn new_server() -> Server<()> {
         Ok(Response::new(StatusCode::Ok).body_json(&r)?)
     });
 
-    app.at("/").serve_dir("src/templates/").unwrap();
+    app.at("/").serve_dir("templates/").unwrap();
 
     app
 }
