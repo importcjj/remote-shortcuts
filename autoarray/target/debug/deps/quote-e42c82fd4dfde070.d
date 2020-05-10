@@ -1,0 +1,11 @@
+e:\Rust\webcontrol\autoarray\autoarray\target\debug\deps\quote-e42c82fd4dfde070.rmeta: C:\Users\george\ chen\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.4\src\lib.rs C:\Users\george\ chen\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.4\src\ext.rs C:\Users\george\ chen\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.4\src\format.rs C:\Users\george\ chen\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.4\src\ident_fragment.rs C:\Users\george\ chen\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.4\src\to_tokens.rs C:\Users\george\ chen\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.4\src\runtime.rs C:\Users\george\ chen\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.4\src\spanned.rs
+
+e:\Rust\webcontrol\autoarray\autoarray\target\debug\deps\quote-e42c82fd4dfde070.d: C:\Users\george\ chen\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.4\src\lib.rs C:\Users\george\ chen\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.4\src\ext.rs C:\Users\george\ chen\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.4\src\format.rs C:\Users\george\ chen\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.4\src\ident_fragment.rs C:\Users\george\ chen\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.4\src\to_tokens.rs C:\Users\george\ chen\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.4\src\runtime.rs C:\Users\george\ chen\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.4\src\spanned.rs
+
+C:\Users\george\ chen\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.4\src\lib.rs:
+C:\Users\george\ chen\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.4\src\ext.rs:
+C:\Users\george\ chen\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.4\src\format.rs:
+C:\Users\george\ chen\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.4\src\ident_fragment.rs:
+C:\Users\george\ chen\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.4\src\to_tokens.rs:
+C:\Users\george\ chen\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.4\src\runtime.rs:
+C:\Users\george\ chen\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.4\src\spanned.rs:

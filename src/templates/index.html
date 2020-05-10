@@ -1,0 +1,97 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        body {
+            margin: 10px;
+        }
+
+        .button {
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="display-4">远程快捷键</h1>
+
+    <button type="button" class="btn btn-primary btn-lg btn-block" onclick="sendShortcuts(['Alt', 'Enter'])">全屏/退出全屏
+    </button>
+
+    <button type="button" class="btn btn-primary btn-lg btn-block" onclick="sendShortcuts(['Alt', 'Tab'])">切换应用
+    </button>
+
+    <button type="button" class="btn btn-danger btn-lg btn-block" onclick="sendShortcuts(['Ctrl', 'Right'])">下一个节目
+    </button>
+
+
+    <button type="button" class="btn btn-danger btn-lg btn-block" onclick="repeatKeys(skipHeadKeys)">跳过片头
+    </button>
+
+    <div class="container bg-light">
+        <div class="row justify-content-between p-4">
+
+            <button type="button" class="btn btn-success btn-lg" onclick="sendShortcuts(['Up'])">音量+
+            </button>
+            <button type="button" class="btn btn-success btn-lg" onclick="sendShortcuts(['Right'])">快进
+            </button>
+
+        </div>
+
+
+        <div class="row justify-content-center">
+
+
+            <button type="button" class="btn btn-dark btn-lg" onclick="sendShortcuts(['Space'])">暂停/播放
+            </button>
+
+
+        </div>
+
+        <div class="row justify-content-between p-4">
+
+
+
+            <button type="button" class="btn btn-success btn-lg" onclick="sendShortcuts(['Down'])">音量-
+            </button>
+            <button type="button" class="btn btn-success btn-lg" onclick="sendShortcuts(['Left'])">快退
+            </button>
+        </div>
+    </div>
+
+
+
+</body>
+
+<script>
+
+    var skipHeadKeys = [
+        'Right', 'Right', 'Right', 'Right',
+        'Right', 'Right', 'Right', 'Right',
+        'Right', 'Right', 'Right', 'Right',
+    ];
+
+    function sendShortcuts(keys) {
+        var xmlhttp = new XMLHttpRequest();   // new HttpRequest instance 
+        var theUrl = "/submit";
+        xmlhttp.open("POST", theUrl);
+        xmlhttp.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+        xmlhttp.send(JSON.stringify({ shortcuts: keys, hotkey_mode: true }));
+    }
+
+    function repeatKeys(keys) {
+        var xmlhttp = new XMLHttpRequest();   // new HttpRequest instance 
+        var theUrl = "/submit";
+        xmlhttp.open("POST", theUrl);
+        xmlhttp.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+        xmlhttp.send(JSON.stringify({ shortcuts: keys, hotkey_mode: false }));
+    }
+
+
+</script>
+
+</html>
